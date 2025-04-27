@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom - Discover Your Dream Destination</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <h1>TravelBloom</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Explore the World with Us</h2>
+    <p>Discover beautiful beaches, majestic temples, and vibrant cities!</p>
+    <a href="https://www.booking.com/" target="_blank" class="btn">Book Now</a>
+  </div>
+</section>
+
+<section class="search-section">
+  <input type="text" id="searchInput" placeholder="Search beaches, temples, or cities...">
+  <button onclick="searchDestinations()">Search</button>
+  <button onclick="clearSearch()">Clear</button>
+</section>
+
+<section id="results" class="cards-section"></section>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
