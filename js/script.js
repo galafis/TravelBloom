@@ -1,1 +1,0 @@
-function searchDestinations() { const input = document.getElementById('searchInput').value; document.getElementById('results').innerHTML = `<p>Showing results for: ${input}</p>`; } function clearSearch() { document.getElementById('searchInput').value = ''; document.getElementById('results').innerHTML = ''; }
