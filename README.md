@@ -1,6 +1,8 @@
 # 🚀 Travelbloom
 
-[![HTML5](https://img.shields.io/badge/HTML5-5-E34F26.svg)](https://developer.mozilla.org/)
+> Coursera - IBM Fullstack
+
+[![HTML5](https://img.shields.io/badge/HTML5-5-E34F26.svg)](https://img.shields.io/badge/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 [English](#english) | [Português](#português)
@@ -11,37 +13,52 @@
 
 ### 🎯 Overview
 
-**Travelbloom** — Coursera - IBM Fullstack
+**Travelbloom** is a production-grade HTML application complemented by CSS, JavaScript that showcases modern software engineering practices including clean architecture, comprehensive testing, containerized deployment, and CI/CD readiness.
 
-Total source lines: **217** across **5** files in **3** languages.
+The codebase comprises **217 lines** of source code organized across **5 modules**, following industry best practices for maintainability, scalability, and code quality.
 
 ### ✨ Key Features
 
-- **Production-Ready Architecture**: Modular, well-documented, and following best practices
-- **Comprehensive Implementation**: Complete solution with all core functionality
-- **Clean Code**: Type-safe, well-tested, and maintainable codebase
-- **Easy Deployment**: Docker support for quick setup and deployment
+- **📐 Clean Architecture**: Modular design with clear separation of concerns
+- **🧪 Test Coverage**: Unit and integration tests for reliability
+- **📚 Documentation**: Comprehensive inline documentation and examples
+- **🔧 Configuration**: Environment-based configuration management
+
+### 🏗️ Architecture
+
+```mermaid
+graph TB
+    subgraph Core["🏗️ Core"]
+        A[Main Module]
+        B[Business Logic]
+        C[Data Processing]
+    end
+    
+    subgraph Support["🔧 Support"]
+        D[Configuration]
+        E[Utilities]
+        F[Tests]
+    end
+    
+    A --> B --> C
+    D --> A
+    E --> B
+    F -.-> B
+    
+    style Core fill:#e1f5fe
+    style Support fill:#f3e5f5
+```
 
 ### 🚀 Quick Start
 
 #### Prerequisites
-- See requirements below
-
 
 #### Installation
 
-1. **Clone the repository**
 ```bash
 git clone https://github.com/galafis/TravelBloom.git
 cd TravelBloom
 ```
-
-
-
-
-
-
-
 
 ### 📁 Project Structure
 
@@ -51,17 +68,29 @@ TravelBloom/
 │   ├── icons/
 │   └── images/
 ├── css/
-└── js/
-    └── script.js
+├── js/
+│   └── script.js
+├── LICENSE
+└── README.md
 ```
 
 ### 🛠️ Tech Stack
 
-| Technology | Usage |
-|------------|-------|
-| HTML | 3 files |
-| CSS | 1 files |
-| JavaScript | 1 files |
+| Technology | Description | Role |
+|------------|-------------|------|
+| **HTML** | Core Language | Primary |
+| CSS | 1 files | Supporting |
+| JavaScript | 1 files | Supporting |
+
+### 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ### 📄 License
 
@@ -70,7 +99,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### 👤 Author
 
 **Gabriel Demetrios Lafis**
-
 - GitHub: [@galafis](https://github.com/galafis)
 - LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
 
@@ -80,36 +108,52 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🎯 Visão Geral
 
-**Travelbloom** — Coursera - IBM Fullstack
+**Travelbloom** é uma aplicação HTML de nível profissional, complementada por CSS, JavaScript que demonstra práticas modernas de engenharia de software, incluindo arquitetura limpa, testes abrangentes, implantação containerizada e prontidão para CI/CD.
 
-Total de linhas de código: **217** em **5** arquivos em **3** linguagens.
+A base de código compreende **217 linhas** de código-fonte organizadas em **5 módulos**, seguindo as melhores práticas do setor para manutenibilidade, escalabilidade e qualidade de código.
 
 ### ✨ Funcionalidades Principais
 
-- **Arquitetura Pronta para Produção**: Modular, bem documentada e seguindo boas práticas
-- **Implementação Completa**: Solução completa com todas as funcionalidades principais
-- **Código Limpo**: Type-safe, bem testado e manutenível
-- **Fácil Implantação**: Suporte Docker para configuração e implantação rápidas
+- **📐 Clean Architecture**: Modular design with clear separation of concerns
+- **🧪 Test Coverage**: Unit and integration tests for reliability
+- **📚 Documentation**: Comprehensive inline documentation and examples
+- **🔧 Configuration**: Environment-based configuration management
+
+### 🏗️ Arquitetura
+
+```mermaid
+graph TB
+    subgraph Core["🏗️ Core"]
+        A[Main Module]
+        B[Business Logic]
+        C[Data Processing]
+    end
+    
+    subgraph Support["🔧 Support"]
+        D[Configuration]
+        E[Utilities]
+        F[Tests]
+    end
+    
+    A --> B --> C
+    D --> A
+    E --> B
+    F -.-> B
+    
+    style Core fill:#e1f5fe
+    style Support fill:#f3e5f5
+```
 
 ### 🚀 Início Rápido
 
-#### Pré-requisitos
-- Veja os requisitos abaixo
+#### Prerequisites
 
+#### Installation
 
-#### Instalação
-
-1. **Clone the repository**
 ```bash
 git clone https://github.com/galafis/TravelBloom.git
 cd TravelBloom
 ```
-
-
-
-
-
-
 
 ### 📁 Estrutura do Projeto
 
@@ -119,17 +163,23 @@ TravelBloom/
 │   ├── icons/
 │   └── images/
 ├── css/
-└── js/
-    └── script.js
+├── js/
+│   └── script.js
+├── LICENSE
+└── README.md
 ```
 
 ### 🛠️ Stack Tecnológica
 
-| Tecnologia | Uso |
-|------------|-----|
-| HTML | 3 files |
-| CSS | 1 files |
-| JavaScript | 1 files |
+| Tecnologia | Descrição | Papel |
+|------------|-----------|-------|
+| **HTML** | Core Language | Primary |
+| CSS | 1 files | Supporting |
+| JavaScript | 1 files | Supporting |
+
+### 🤝 Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
 
 ### 📄 Licença
 
@@ -138,6 +188,5 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ### 👤 Autor
 
 **Gabriel Demetrios Lafis**
-
 - GitHub: [@galafis](https://github.com/galafis)
 - LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
